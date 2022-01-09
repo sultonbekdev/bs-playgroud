@@ -1,0 +1,158 @@
+body{
+  background: white;
+}
+.bigcard{
+  border: none;
+}
+.card-header{
+  border-bottom: none;
+  background: unset;
+}
+.bigCardBtn{
+  width: 300px;
+  background: rgba(8, 233, 8, 0.904);
+  padding: 10px;
+  border-radius: 30px;
+}
+.btn-check:focus+.btn, .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.bigCardcol{
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px #888888;
+  flex-direction: row;
+  align-items: center;
+}
+.Box{
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to top left, red 50%, white 50%);
+  position: relative;
+}
+.box{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border-radius: 50%;
+  top: 15px;
+  left: 15px;
+  background: yellow;
+}
+/* footer            */
+
+
+
+
+.collaplink{
+  width: 366px;
+height: 48px;
+border-radius: 10px;
+}
+
+
+.nav-item .nav-link{
+  margin-bottom: 30px;
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+padding: 0;
+
+} 
+.col1link .nav-link, a{
+  margin-bottom: 38px;
+  padding: 0;
+  font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.02em;
+color: #000000;
+}
+
+.col1text1{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+opacity: 0.3;
+}
+.nav-item .nav-link:hover{
+  color: rgb(13, 236, 162);
+}
+.lasttx{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+opacity: 0.3;
+}
+.header{
+  margin-bottom: 20px;
+}
+
+.nav .navimg{
+  padding-right: 35px;
+}
+
+ 
+.dhide{
+  display: none;
+}
+@media (max-width: 576px ){
+  .mhide{
+    display: none;
+  }
+  .dhide{
+    display: block;
+  }
+  .header3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: left;
+     
+  }
+
+
+  
+
+  footer .btn{
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+  }
+  footer .card-header{
+    background: #ffffff;
+    border-bottom: none;
+  }
+  .small:hover{
+    background: rgb(115, 245, 115);
+    color: black;
+    border-radius: 30px;
+
+  }
+
+  .card{
+    border: none;
+  }
+  .col1link .nav-link, a{
+    margin-bottom: 0;
+  }
+  .lastsocial .nav-link{
+    padding-left: 20px;
+  }
+  
+}
+
+

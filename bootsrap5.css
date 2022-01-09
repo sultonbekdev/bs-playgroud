@@ -1,0 +1,89 @@
+body{
+  background-color: #f6f6f6;
+}
+.nav-menu .nav-link{
+  margin-right: 40px;
+  
+}
+.nav-menu2 .nav-link{
+  margin-left: 53px;
+}
+.dhide{
+  display: none !important;
+}
+.bigcard{
+  height: 550px;
+  position: relative;
+}
+.bigimg{
+  position: absolute;
+  height: 550px;
+  z-index: -1;
+}
+.bigtitle{
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+color: #FFFFFF;
+padding-top: 161px;
+margin-bottom: 10px;
+box-sizing: border-box;
+}
+.bigsubtitle{
+  font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 31px;
+color: #FFFFFF;
+margin-bottom: 62px;
+}
+.bigbtn{
+  width: 289px;
+height: 61px;
+background: #FFFFFF;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+color: black;
+border: none;
+}
+.btn{
+  width: 500px;
+  height: 70px;
+  
+}
+.Box{
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  background: linear-gradient(to top left, rgba(255, 0, 0, 0.623) 50%, #f6f6f6 50% );
+  position: relative;
+}
+.box{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: yellow;
+  border-radius: 50%;
+  top: 200px;
+  left: 180px;
+  text-align: center;
+}
+
+
+
+
+@media (max-width: 576px){
+.dhide{
+  display: block !important;
+}
+.mhide{
+  display: none !important;
+}
+.nav-icon{
+  flex-direction: row !important;
+}
+}
+
