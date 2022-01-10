@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>bootsrapt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--section-1-->
+ <div class="container mt-5">
+     <!-- Nav pills -->
+     <div class="sec1 d-flex justify-content-between align-items-center">
+         <ul class="nav nav-pills sec1nav">
+             <li class="nav-item">
+                 <a class="nav-link active" data-bs-toggle="pill" href="#home">Yangiliklar</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" data-bs-toggle="pill" href="#menu1">Konkurslar</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" data-bs-toggle="pill" href="#menu2">Statistika</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" data-bs-toggle="pill" href="#menu3">Korrupsiya</a>
+             </li>
+         </ul>
+         <a href="#" class="sec1more mhide">Barchasi</a>
+     </div>
+
+     <!-- Tab panes -->
+     <div class="tab-content">
+         <div id="home" class="container tab-pane active"><br>
+             <div class="d-flex justify-content-between align-items-center sec1row">
+                 <div >
+                     <div class="card sec1card">
+                         <div class="card-header sec1header1">
+                             <div class="sec1text1">
+                                 Toshkent Davlat Yuridik Universiteti
+                                 Akademik Litseyiga test sinovlari
+                             </div>
+                             <div class="sec1text2">
+                                 2021-2022-o’quv yili Toshkent Davlat Yuridik Unive
+                                 -rsiteti akademik litseyiga kirish test sinovlari...
+                             </div>
+                             <div class="sec1text3 ">
+                                 <img class="img-fluid "  src="Images/1.png" alt=""> 6.2 k . 23.08.2021
+                             </div>
+                                 <img class="img-fluid w-100" src="Images/image%2033.png" alt="">
+                         </div>
+                     </div>
+                 </div>
+                 <div >
+                     <div class="card sec1card  mx-xl-2">
+                         <div class="card-header sec1header1">
+                             <div class="sec1text1">
+                                 Toshkent Davlat Yuridik Universiteti
+                                 Akademik Litseyiga test sinovlari
+                             </div>
+                             <div class="sec1text2">
+                                 2021-2022-o’quv yili Toshkent Davlat Yuridik Unive
+                                 -rsiteti akademik litseyiga kirish test sinovlari...
+                             </div>
+                             <div class="sec1text3 ">
+                                 <img class="img-fluid "  src="Images/1.png" alt=""> 6.2 k . 23.08.2021
+                             </div>
+                             <img class="img-fluid w-100" src="Images/2.png" alt="">
+                         </div>
+                     </div>
+                 </div>
+                 <div >
+                     <div class="card sec1card">
+                         <div class="card-header sec1header1">
+                             <div class="sec1text1">
+                                 Toshkent Davlat Yuridik Universiteti
+                                 Akademik Litseyiga test sinovlari
+                             </div>
+                             <div class="sec1text2">
+                                 2021-2022-o’quv yili Toshkent Davlat Yuridik Unive
+                                 -rsiteti akademik litseyiga kirish test sinovlari...
+                             </div>
+                             <div class="sec1text3 ">
+                                 <img class="img-fluid "  src="Images/1.png" alt=""> 6.2 k . 23.08.2021
+                             </div>
+                             <img class="img-fluid w-100" src="Images/image%2040.png" alt="">
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div id="menu1" class="container tab-pane fade"><br>
+             <div class="d-flex justify-content-center align-items-center">
+
+                 <div class="sec1card2">
+                     <div >
+                         <div class="card sec1card">
+                             <div class="card-header sec1header1">
+                                 <div class="sec1text1">
+                                     Toshkent Davlat Yuridik Universiteti
+                                     Akademik Litseyiga test sinovlari
+                                 </div>
+                                 <div class="sec1text2">
+                                     2021-2022-o’quv yili Toshkent Davlat Yuridik Unive
+                                     -rsiteti akademik litseyiga kirish test sinovlari...
+                                 </div>
+                                 <div class="sec1text3 ">
+                                     <img class="img-fluid "  src="Images/1.png" alt=""> 6.2 k . 23.08.2021
+                                 </div>
+                                 <img class="img-fluid w-100" src="Images/2.png" alt="">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+         <div id="menu2" class="container tab-pane fade"><br>
+             <div class="d-flex justify-content-around align-items-center">
+
+                 <div class="sec1card2">
+                     <div >
+                         <div class="card sec1card ">
+                             <div class="card-header sec1header1">
+                                 <div class="sec1text1">
+                                     Toshkent Davlat Yuridik Universiteti
+                                     Akademik Litseyiga test sinovlari
+                                 </div>
+                                 <div class="sec1text2">
+                                     2021-2022-o’quv yili Toshkent Davlat Yuridik Unive
+                                     -rsiteti akademik litseyiga kirish test sinovlari...
+                                 </div>
+                                 <div class="sec1text3 ">
+                                     <img class="img-fluid "  src="Images/1.png" alt=""> 6.2 k . 23.08.2021
+                                 </div>
+                                 <img class="img-fluid w-100" src="Images/2.png" alt="">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="sec1card2">
+                     <div >
+                         <div class="card sec1card ">
+                             <div class="card-header sec1header1">
+                                 <div class="sec1text1">
+                                     Toshkent Davlat Yuridik Universiteti
+                                     Akademik Litseyiga test sinovlari
+                                 </div>
+                                 <div class="sec1text2">
+                                     2021-2022-o’quv yili Toshkent Davlat Yuridik Unive
+                                     -rsiteti akademik litseyiga kirish test sinovlari...
+                                 </div>
+                                 <div class="sec1text3 ">
+                                     <img class="img-fluid"  src="Images/1.png" alt=""> 6.2 k . 23.08.2021
+                                 </div>
+                                 <img class="img-fluid w-100" src="Images/image%2040.png" alt="">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+         <div id="menu3" class="container tab-pane fade"><br>
+             <div class="d-flex justify-content-center align-items-center">
+
+
+                 <div class="sec1card2">
+                     <div >
+                         <div class="card sec1card ">
+                             <div class="card-header sec1header1">
+                                 <div class="sec1text1">
+                                     Toshkent Davlat Yuridik Universiteti
+                                     Akademik Litseyiga test sinovlari
+                                 </div>
+                                 <div class="sec1text2">
+                                     2021-2022-o’quv yili Toshkent Davlat Yuridik Unive
+                                     -rsiteti akademik litseyiga kirish test sinovlari...
+                                 </div>
+                                 <div class="sec1text3 ">
+                                     <img class="img-fluid "  src="Images/1.png" alt=""> 6.2 k . 23.08.2021
+                                 </div>
+                                 <img class="img-fluid w-100" src="Images/image%2040.png" alt="">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+     </div>
+     <a href="#" class="sec1more1 dhide">Barchasi</a>
+ </div>
+
+
+
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
